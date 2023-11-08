@@ -2,7 +2,7 @@
  IP conversion app calculator 
 INFORMATION
   name = "IP-Conversion",
-  version = "0.0.1",
+  version = "0.0.3",
   author = "Hades",
   author_email = "bbakytbieku02@gmail.com",
   description = "IP conversion, conversion DEC in BIN, BIN in DEC, logical multiplication, Automatic network address search.",
