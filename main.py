@@ -27,12 +27,11 @@ while True:
 
         bin_str = mask_to_bin_result
         zero_count = count_zeros(bin_str)
-        print(f"------------>How zero in mask BIN-code:\n                {zero_count}")
+        print(f"------------>How many zeros in the subnet mask BIN-code:\n                {zero_count}")
 
-        math = zero_count
         math1 = 2 ** zero_count
         math2 = math1 - 2
-        print(f"-------------------->IP addresses in network:\n                        {math2}")
+        print(f"-------------------->Number of IP addresses in the network:\n                        {math2}")
 
 
         def logical_and_with_dots(BINstr1, BINstr2):
@@ -113,5 +112,17 @@ while True:
         broadcast_ip_address_in_network = broadcast_ip_address(broadcast)
         print(f"---->Broadcast ip address:\n{broadcast_ip_address_in_network}\n")
 
+        with open("outputdata.txt", "a") as file:
+            file.write(f"---->Your IP-Address in BIN-code:\n        {ip_bin_result} = {ip_dec}\n")
+            file.write(f"---->Your subnet mask in BIN-code:\n        {mask_to_bin_result} = {mask_to_bin}\n")
+            file.write(f"------------>How many zeros in the subnet mask BIN-code:\n                {zero_count}\n")
+            file.write(f"-------------------->Number of IP addresses in the network:\n                        {math2}\n")
+            file.write(f"---------------------------->Result of logical multiplication:\n                                {result}\n")
+            file.write(f"---------------------------->It's Your Network address:\n                        {ip_dec_result}\n")
+            file.write(f"-------------------->First address in network:\n                {new_ip}\n")
+            file.write(f"------------>Last ip address:\n        {last_ip_in_network}\n")
+            file.write(f"---->Broadcast ip address:\n{broadcast_ip_address_in_network}\n")
+            file.write("\n")  # Добавляем пустую строку для разделения записей в файле
+
     except ValueError:
-        print("ERROR!!! TRY AGAIN")
+        print(f"ERROR: {ValueError}. TRY AGAIN")

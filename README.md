@@ -1,5 +1,13 @@
 # IP-Conversion
-  IP conversion app calculator 
+    IP conversion app calculator
+
+  Update ver = 0.0.4 ==> ver = 0.0.5
+    
+    *add Saves all output text to a text file
+    *add Shows what caused the error
+    
+    *fix Corrected the appearance of the code
+    *fix Bugs fixed
 
   Update ver = 0.0.3 ==> ver = 0.0.4
 
@@ -8,7 +16,7 @@
     *add Finder last ip-address in network
     *add Finder broadcast ip address
     
-    *fix Fixing the logical structure in the code
+    *fix Fixed logical structure in the code
     *fix Fixed visual code output
     *fix Fixed the visual part in Readme.md.
 
