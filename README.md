@@ -23,7 +23,7 @@
   INFORMATION
 
     name = "IP-Conversion",
-    version = "0.0.4",
+    version = "0.0.5",
     author = "Hades",
     author_email = "bbakytbieku02@gmail.com",
     description = "IP conversion - conversion IP-Address in BIN, subnet mask in BIN, logical multiplication. 
