@@ -25,7 +25,7 @@
     name = "IP-Conversion",
     version = "0.0.5",
     author = "Hades",
-    author_email = "bbakytbieku02@gmail.com",
+    author_email = "bakytbieku02@gmail.com",
     description = "IP conversion - conversion IP-Address in BIN, subnet mask in BIN, logical multiplication. 
                    Automatic search - How zero in mask BIN, IP addresses in network, network address, first ip address, Last ip address, Broadcast ip address.",
     classifiers = [
